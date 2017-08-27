@@ -1,5 +1,7 @@
 # Docker.SonarQube
 Docker快速构建代码分析工具
+image:
+SonarQube+PostGre
 
 1) 配置Maven的settings.xml
 
