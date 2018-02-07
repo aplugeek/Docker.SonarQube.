@@ -57,6 +57,8 @@ mvn clean verify sonar:sonar
 
 mvn clean install org.sonarsource.scanner.maven:sonar-maven-plugin:3.1.1:sonar
 
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.jdbc.url="jdbc:postgresql://localhost:5432/sonar"
+
 ```
 
 https://hub.docker.com/_/sonarqube/
